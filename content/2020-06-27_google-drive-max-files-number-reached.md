@@ -1,7 +1,7 @@
 ---
 title: Requested contents are not available in Plex
 date: '2020-06-27T15:00:32.461Z'
-severity: partial-outage
+severity: media-factory-osc
 affectedsystems:
   - plex
 resolved: false
