@@ -6,6 +6,7 @@ steps:
 - name: deploy
   image: node
   commands:
+    - apk --no-cache add git
     - npm install gh-pages --save-dev
     - npm run generate
     - npm run deploy
