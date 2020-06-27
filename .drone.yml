@@ -10,6 +10,16 @@ steps:
     - npm run generate
     - npm run deploy
 
+- name: notify
+  image: drillster/drone-email
+  settings:
+    from: ci@lecat.io
+    host: mail.lecat.io
+    secrets: [ email_username, email_password ]
+  when:
+    status:
+    - failure
+
 trigger:
   branch:
   - master
