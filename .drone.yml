@@ -23,6 +23,7 @@ steps:
     from: ci@lecat.io
     host: mail.lecat.io
     secrets: [ email_username, email_password ]
+    upstream_name: github
   when:
     status:
     - failure
