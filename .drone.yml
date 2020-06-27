@@ -8,6 +8,7 @@ steps:
   commands:
     - npm install
     - npm run generate -- -d public
+    - cp ./CNAME ./public/CNAME
 
 - name: publish
   image: plugins/gh-pages
