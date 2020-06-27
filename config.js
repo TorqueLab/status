@@ -9,7 +9,8 @@ module.exports = {
         "frontMatterFormat": "yaml",
         "systems": [
             'plex',
-            'plex-osc'
+            'plex-osc',
+            'media-req'
         ]
     },
 }

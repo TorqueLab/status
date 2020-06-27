@@ -8,6 +8,10 @@
             },
             "plex-osc": {
                 "title": "Plex-OSC"
+            },
+            "media-req": {
+                "title": "Media Requests",
+                "description": "Movies and TV Shows requests platform"
             }
         }
     }
