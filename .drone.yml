@@ -1,0 +1,17 @@
+---
+kind: pipeline
+name: default
+
+steps:
+- name: deploy
+  image: node
+  commands:
+    - npm install gh-pages --save-dev
+    - npm run generate
+    - npm run deploy
+
+trigger:
+  branch:
+  - master
+  event:
+  - push

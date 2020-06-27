@@ -1,0 +1,14 @@
+{
+    "title": "Torque Status",
+    "description": "",
+    "systems": {
+        "items": {
+            "plex": {
+                "title": "Plex"
+            },
+            "plex-osc": {
+                "title": "Plex-OSC"
+            }
+        }
+    }
+}
