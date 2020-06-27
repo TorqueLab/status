@@ -13,7 +13,7 @@ steps:
   image: plugins/gh-pages
   settings:
     username:
-      from_secret: github_deploy_key
+      from_secret: git_deploy_key
     password: x-oauth-basic
     pages_directory: public/
 
@@ -23,7 +23,6 @@ steps:
     from: ci@lecat.io
     host: mail.lecat.io
     secrets: [ email_username, email_password ]
-    upstream_name: https://github.com/TorqueLab/status.git
   when:
     status:
     - failure
