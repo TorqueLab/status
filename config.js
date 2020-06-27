@@ -10,7 +10,9 @@ module.exports = {
         "systems": [
             'plex',
             'plex-osc',
-            'media-req'
+            'media-req',
+            'media-factory',
+            'media-factory-osc'
         ]
     },
 }

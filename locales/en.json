@@ -12,6 +12,14 @@
             "media-req": {
                 "title": "Media Requests",
                 "description": "Movies and TV Shows requests platform"
+            },
+            "media-factory": {
+                "title": "Media Factory",
+                "description": "Responsible for all non-requested content download and handling"
+            },
+            "media-factory-osc": {
+                "title": "Media Factory OSC",
+                "description": "Responsible for all requested content download and handling"
             }
         }
     }
