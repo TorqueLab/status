@@ -6,7 +6,6 @@ steps:
 - name: build
   image: node
   commands:
-    - npm install gh-pages --save-dev
     - npm run generate -- -d public
 
 - name: publish
