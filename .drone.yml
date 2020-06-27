@@ -17,6 +17,7 @@ steps:
       from_secret: git_deploy_key
     password: x-oauth-basic
     pages_directory: public/
+    exclude_cname: false
 
 - name: notify
   image: drillster/drone-email
