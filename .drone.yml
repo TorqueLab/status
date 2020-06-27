@@ -23,7 +23,7 @@ steps:
     from: ci@lecat.io
     host: mail.lecat.io
     secrets: [ email_username, email_password ]
-    upstream_name: github
+    upstream_name: https://github.com/TorqueLab/status.git
   when:
     status:
     - failure
