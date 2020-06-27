@@ -3,13 +3,19 @@ kind: pipeline
 name: default
 
 steps:
-- name: deploy
-  image: node:lts-alpine
+- name: build
+  image: node
   commands:
-    - apk --no-cache add git
     - npm install gh-pages --save-dev
-    - npm run generate
-    - npm run deploy
+    - npm run generate -- -d public
+
+- name: publish
+  image: plugins/gh-pages
+  settings:
+    username:
+      from_secret: github_deploy_key
+    password: x-oauth-basic
+    pages_directory: public/
 
 - name: notify
   image: drillster/drone-email
