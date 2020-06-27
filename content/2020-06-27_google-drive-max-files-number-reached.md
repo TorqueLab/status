@@ -6,6 +6,7 @@ affectedsystems:
   - plex
 resolved: false
 ---
-We reached the maximum number of files allowed in a single Google Drive Enterprise shared folder.
+We reached the maximum number of files allowed in a single Google Drive Enterprise shared folder, which can cause some content to be unavailable on Plex (while it is on Plex-OSC).  
+Remediations are in progress but could take some time.
 
 <!--- language code: en -->
