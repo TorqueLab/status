@@ -4,7 +4,7 @@ name: default
 
 steps:
 - name: deploy
-  image: node
+  image: node:lts-alpine
   commands:
     - apk --no-cache add git
     - npm install gh-pages --save-dev
