@@ -5,13 +5,13 @@ severity: major-outage
 affectedsystems:
   - plex
   - media-factory
-resolved: false
+resolved: true
 ---
 The Storage server system board crashed, and the server won't go up. Replacement part are purchased and should be available soon.
 
-
-
 **UPDATE 2020.07.01:** Replacement came, supplier sent a defective part and doesn't have any other one in stock.  
 A brand new server has been purchased today and should arrive in 3-5 days.
+
+**UPDATE 2020.07.04:** A new motherboard came in and works fine. Storage system is up again.
 
 <!--- language code: en -->
