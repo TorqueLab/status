@@ -1,6 +1,6 @@
 ---
 title: Storage upgrade
-date: '2020-07-10T16:32:22.010Z'
+date: '2020-07-10T10:00:00.010Z'
 severity: under-maintenance
 affectedsystems:
   - plex
