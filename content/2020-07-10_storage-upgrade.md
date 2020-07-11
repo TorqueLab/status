@@ -5,7 +5,7 @@ severity: under-maintenance
 affectedsystems:
   - plex
   - media-factory
-resolved: false
+resolved: true
 ---
 Storage server is upgraded to a more recent and performant one, causing downtime for Plex and Media Factory.
 
