@@ -13,9 +13,8 @@ steps:
 - name: publish
   image: plugins/gh-pages
   settings:
-    username:
-      from_secret: git_deploy_key
-    password: x-oauth-basic
+    ssh_key:
+      from_secret: deploy_key
     pages_directory: public/
     exclude_cname: false
 
