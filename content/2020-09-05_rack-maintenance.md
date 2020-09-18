@@ -5,7 +5,7 @@ severity: under-maintenance
 affectedsystems:
   - plex
   - media-factory
-resolved: false
+resolved: true
 ---
 Rack is being recabled and have wheels, which needs a complete shutdown to do so.
 
