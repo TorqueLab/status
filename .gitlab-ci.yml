@@ -7,7 +7,8 @@ before_script:
   - chmod 600 ~/.ssh/id_rsa
   - eval "$(ssh-agent -s)"
   - ssh-add ~/.ssh/id_rsa
-  - ssh-keyscan git.lecat.pro > ~/.ssh/known_hosts
+  - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
 
 build:
   image: node
