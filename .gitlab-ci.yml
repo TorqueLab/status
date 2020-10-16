@@ -17,9 +17,10 @@ build:
     - cp ./CNAME ./public/CNAME
 
 publish:
-  image: alpine/git
+  image:
+    name: alpine/git
+    entrypoint: [""]
   stage: publish
-  entrypoint: [""]
   script:
     - git worktree add -B gh-pages public origin/gh-pages
     - cd public
