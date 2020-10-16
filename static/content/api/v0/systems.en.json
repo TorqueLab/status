@@ -1,1 +1,1 @@
-[{"name":"plex","status":"operational","order":1},{"name":"plex-osc","status":"operational","order":2},{"name":"media-req","status":"degraded-performance","order":3},{"name":"media-factory","status":"operational","order":4},{"name":"media-factory-osc","status":"operational","order":5}]
+[{"name":"plex","status":"operational","order":1},{"name":"plex-osc","status":"operational","order":2},{"name":"media-req","status":"operational","order":3},{"name":"media-factory","status":"operational","order":4},{"name":"media-factory-osc","status":"operational","order":5}]
