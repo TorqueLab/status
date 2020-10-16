@@ -18,12 +18,12 @@ build:
 
 publish:
   image:
-    name: alpine/git
+    name: node:git
     entrypoint: [""]
   stage: publish
   script:
-    - git worktree add -B gh-pages public gh-pages
     - cd public
-    - git add --all
-    - git commit -m "Update status page"
-    - git push --all
+    - npm install -g --silent gh-pages
+    - git config user.email "git@lecat.io"
+    - git config user.name "GitLab CI"
+    - gh-pages --dist public
