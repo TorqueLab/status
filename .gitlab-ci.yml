@@ -19,4 +19,9 @@ build:
 publish:
   image: alpine/git
   stage: publish
-  script: git worktree add -B gh-pages public origin/gh-pages
+  script:
+    - git worktree add -B gh-pages public origin/gh-pages
+    - cd public
+    - git add --all
+    - git commit -m "Update status page"
+    - git push --all
