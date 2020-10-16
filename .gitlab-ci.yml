@@ -11,6 +11,9 @@ before_script:
 build:
   image: node
   stage: build
+  artifacts:
+    paths:
+      - public/
   script:
     - npm install
     - npm run generate -- -d public
