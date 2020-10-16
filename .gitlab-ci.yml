@@ -26,4 +26,5 @@ publish:
     - npm install -g --silent gh-pages
     - git config user.email "git@lecat.io"
     - git config user.name "GitLab CI"
+    - git remote rm origin && git remote add origin "git@git.lecat.pro:${CI_PROJECT_PATH}.git"
     - gh-pages --dist public
