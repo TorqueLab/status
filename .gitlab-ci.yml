@@ -1,0 +1,22 @@
+stages:
+  - build
+  - publish
+before_script:
+  - mkdir -p ~/.ssh
+  - echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+  - eval "$(ssh-agent -s)"
+  - ssh-add ~/.ssh/id_rsa
+
+build:
+  image: node
+  stage: build
+  script:
+    - npm install
+    - npm run generate -- -d public
+    - cp ./CNAME ./public/CNAME
+
+publish:
+  image: alpine/git
+  stage: publish
+  script: git worktree add -B gh-pages public origin/gh-pages
