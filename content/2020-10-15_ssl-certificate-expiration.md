@@ -4,7 +4,7 @@ date: '2020-10-15T08:43:54.550Z'
 severity: degraded-performance
 affectedsystems:
   - media-req
-resolved: false
+resolved: true
 ---
 SSL Certificate have expired and cause errors on media-req platform.
 
