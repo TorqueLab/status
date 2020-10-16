@@ -19,6 +19,7 @@ build:
 publish:
   image: alpine/git
   stage: publish
+  entrypoint: [""]
   script:
     - git worktree add -B gh-pages public origin/gh-pages
     - cd public
