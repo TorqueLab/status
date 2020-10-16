@@ -2,8 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.lecat.pro</id>
     <title>Torque Status</title>
-    <updated>2020-06-27T14:41:38.481Z</updated>
+    <updated>2020-10-16T15:32:00.176Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.lecat.pro"/>
     <link rel="self" href="https://status.lecat.pro/feeds/incidents.en.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SSL Certificate expiration]]></title>
+        <id>https://status.lecat.pro/incidents/1ff751b7</id>
+        <link href="https://status.lecat.pro/incidents/1ff751b7"/>
+        <updated>2020-10-15T08:43:54.550Z</updated>
+        <content type="html"><![CDATA[<p>SSL Certificate have expired and cause errors on media-req platform.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rack maintenance]]></title>
+        <id>https://status.lecat.pro/incidents/2a9ddaf7</id>
+        <link href="https://status.lecat.pro/incidents/2a9ddaf7"/>
+        <updated>2020-09-05T10:21:48.471Z</updated>
+        <content type="html"><![CDATA[<p>Rack is being recabled and have wheels, which needs a complete shutdown to do so.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Collect router failure]]></title>
+        <id>https://status.lecat.pro/incidents/c796ebac</id>
+        <link href="https://status.lecat.pro/incidents/c796ebac"/>
+        <updated>2020-09-01T10:20:00.207Z</updated>
+        <content type="html"><![CDATA[<p>Hardware failure on collect router caused major network outage on all infrastructure.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electrical failure]]></title>
+        <id>https://status.lecat.pro/incidents/5d72ace6</id>
+        <link href="https://status.lecat.pro/incidents/5d72ace6"/>
+        <updated>2020-07-22T14:20:00.091Z</updated>
+        <content type="html"><![CDATA[<p>A power outage caused most servers to go down, then broke the measurement tool, causing the rest of the servers (on UPS) to also shutdown.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Storage upgrade]]></title>
+        <id>https://status.lecat.pro/incidents/688cc8e0</id>
+        <link href="https://status.lecat.pro/incidents/688cc8e0"/>
+        <updated>2020-07-11T10:00:00.010Z</updated>
+        <content type="html"><![CDATA[<p>Storage server is upgraded to a more recent and performant one, causing downtime for Plex and Media Factory.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Storage system is down]]></title>
+        <id>https://status.lecat.pro/incidents/db633240</id>
+        <link href="https://status.lecat.pro/incidents/db633240"/>
+        <updated>2020-06-29T11:59:34.111Z</updated>
+        <content type="html"><![CDATA[<p>The Storage server system board crashed, and the server won't go up. Replacement part are purchased and should be available soon.</p>
+<div class="update-block">
+          <div class="update-block-date">2020-07-01T12:00:00.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Replacement parts arrived</div>
+            <div class="update-block-body">
+<p>Replacement came, supplier sent a defective part and doesn't have any other one in stock.<br>
+A brand new server has been purchased today and should arrive in 3-5 days.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2020-07-04T12:00:00.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>A new motherboard came in and works fine. Storage system is up again.</p>
+</div></div></div>
+<!--- language code: en -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Requested contents are not available in Plex]]></title>
+        <id>https://status.lecat.pro/incidents/02cf3462</id>
+        <link href="https://status.lecat.pro/incidents/02cf3462"/>
+        <updated>2020-06-27T15:00:32.461Z</updated>
+        <content type="html"><![CDATA[<p>We reached the maximum number of files allowed in a single Google Drive Enterprise shared folder, which can cause some content to be unavailable on Plex (while it is on Plex-OSC).<br>
+Remediations are in progress but could take some time.</p>
+<!--- language code: en -->
+]]></content>
+    </entry>
 </feed>

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{184:function(t,e,n){"use strict";n.r(e),e.default={title:"Torque Status",description:""}}}]);
