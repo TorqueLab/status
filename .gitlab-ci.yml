@@ -17,9 +17,7 @@ build:
     - cp ./CNAME ./public/CNAME
 
 publish:
-  image:
-    name: node:git
-    entrypoint: [""]
+  image: node
   stage: publish
   script:
     - cd public
